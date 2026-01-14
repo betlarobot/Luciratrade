@@ -1,0 +1,1 @@
+from fastapi import FastAPI from fastapi.responses import HTMLResponse app = FastAPI() @app.get(/) def read_root(): html =  Lucy Trader  Lucy Trader – Your Trading Boss This is placeholder. Real dashboard coming soon. + Create New Bot   return HTMLResponse(content=html, status_code=200)
